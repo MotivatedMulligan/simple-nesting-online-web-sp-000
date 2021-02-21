@@ -66,7 +66,7 @@ end#works
 #################################################
 def dennis_ritchies_language
 	#operates on the programmer_hash
-	#returns the value of Dennis Ritchie's language as a string 
+	#returns the value of Dennis Ritchie's language as a string
 	programmer_hash =
  		{
         :grace_hopper => {
