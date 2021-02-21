@@ -82,7 +82,7 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
-		programmer_hash.dig(:dennis_ritchie, :languages){|v|v.to_s}
+		programmer_hash.fetch(:dennis_ritchie).fetch(:languages).each_value{|v|v.to_s}
 end
 
 def changing_alan
