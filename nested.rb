@@ -83,8 +83,8 @@ def dennis_ritchies_language
         }
      }
 		programmer_hash[:dennis_ritchie][:languages]{|v|v.to_s}
-end
-
+end#works
+#################################################
 def changing_alan
 	programmer_hash =
  		{
@@ -102,8 +102,8 @@ def changing_alan
         }
      }
      #change what Alan Kay is :known_for to the value of the alans_new_info variable.
-programmer_hash = {alan_kay: {known_for: "Object Orientation",}}
-puts programmer_hash.merge!({known_for: "Object Orientation",})
+programmer_hash = {alan_kay: {:known_for=>"GUI",}}
+
 		  #programmer_hash.merge(alans_new_info){|:alan_kay=>{:known_for},'Object Orientation','GUI'| 'Object Orientation' - 'GUI'}
 		 alans_new_info = "GUI"
 
